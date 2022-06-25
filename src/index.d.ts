@@ -20,6 +20,7 @@ export interface PlaylistItemTvg {
 export interface PlaylistItem {
   name: string
   tvg: PlaylistItemTvg
+  sourceType: string
   group: {
     title: string
   }
